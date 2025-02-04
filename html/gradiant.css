@@ -1,0 +1,58 @@
+.grad{
+    height: 300px;
+    width: 400px;
+    background-color: aqua;
+    border: 2px solid black;
+     float: left;
+     background-image: linear-gradient(red, yellow 20%, aqua 60%, green );
+}
+.grad1{
+    height: 300px;
+    width: 200px;
+    background-color: aqua;
+    border: 2px solid black;
+    float:left;
+    background-image: repeating-linear-gradient( red,green,pink );
+}
+.grad2{
+    height: 300px;
+    width: 200px;
+    background-color: aqua;
+    border: 2px solid black;
+     float: left;
+     background-image: radial-gradient(red,yellow,green);
+}
+.grad3{
+    height: 300px;
+    width: 300px;
+    background-color: aqua;
+    border: 2px solid black;
+    float:left;    
+    background-image: repeating-radial-gradient(closest-corner at 60% 55%, red ,green, yellow 10%);
+}
+.r{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    top: 400px;
+    box-shadow: 10px 10px 5px  inset;
+    border-radius: 100%;
+    background-image:conic-gradient(red 10deg ,yellow 20deg, aqua 40deg  );
+}
+
+.t{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    top: 400px;
+    box-shadow: 10px 10px 5px  inset;
+    border-radius: 100%;
+    background-image:repeating-conic-gradient(red 10deg ,yellow 20deg, aqua 40deg  );
+
+}
+.dandi{
+    font-size: 500px;
+    position: relative;
+    left: 48px;
+    top: 290px;
+}

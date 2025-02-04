@@ -1,0 +1,178 @@
+body {
+  height: 514px;
+  width: 100%;
+  padding: 20px 0px;
+  margin: 0;
+  position: absolute;
+  backdrop-filter: brightness(0.5);
+  background: url(hw.jpg) no-repeat;
+  background-size: 100% 500px;
+  background-color: rgb(18, 18, 18);
+}
+
+ul {
+  list-style-type: none;
+  margin: -40px;
+  padding: 18px;
+  overflow: hidden;
+  background-color: aliceblue;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  position: relative;
+  left: 200px;
+  display: block;
+  color: black;
+  text-decoration: none;
+  padding: 12px 14px;
+}
+
+#d1 {
+  width: 700px;
+  position: relative;
+  top: 190px;
+  left: 100px;
+}
+.r a{
+  text-decoration: none;
+  font-family: system-ui;
+}
+
+.r {
+  color: aliceblue;
+  position: absolute;
+  top: 104px;
+  left: 196px;
+}
+
+h1 {
+  font-size: 50px;
+  font-weight: 900;
+  margin-bottom: 5px;
+  color: rgb(231, 231, 231);
+  text-align: start;
+  height: 60;
+  width: 550;
+}
+
+p {
+  font-size: 18px;
+  line-height: 22px;
+  color: rgb(231, 231, 231);
+  width: 550;
+  height: 66;
+}
+.L{
+  height: 200px;
+  width: 500px;
+ position: fixed;
+ top: 0px; 
+}
+#fi {
+  height: 266px;
+  width: 530px;
+  position: relative;
+  left: 910px;
+  bottom: 120px;
+}
+#D2 {
+  background-color: rgb(41, 41, 41);
+  height: 74px;
+  width: 530px;
+  position: relative;
+  left: 910px;
+  bottom: 124px;
+  img {
+    height: 74px;
+    position: relative;
+    left: 28px;
+  }
+}
+
+#forsmallbox {
+  width: 1180px;
+  height: 78px;
+  background-color: rgb(37, 37, 37);
+  position: relative;
+  left: 162px;
+  bottom: 98px;
+  border: 2px solid rgb(37, 37, 37);
+  border-radius: 8px;
+}
+.bb {
+  padding: 14px;
+  font-size: 18px;
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+  position: relative;
+  left: 34px;
+  top: 26px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.things a{
+  color: aliceblue;
+  text-decoration: none;
+  font-size: 20px;
+  margin: 19px;  
+}
+hr{
+  border: 1px solid rgba(76, 76, 76, 0.8);
+}
+#book {
+  border: 2px solid rgba(76, 76, 76, 0.8);
+  border-radius: 26px;
+  width: 352px;
+  height: 50px;
+  position: relative;
+  bottom: 12px;
+  left: 350px;
+}
+
+#forbigbox {
+  width: 1122px;
+  height: 1153px;
+  background-color: rgb(37, 37, 37);
+  position: relative;
+  left: 162px;
+  top: -86px;
+  bottom: 98px;
+  border: 2px solid rgb(37, 37, 37);
+  border-radius: 8px;
+
+  padding: 30px 30px 533px;
+  font-size: 28px;
+  color: rgb(255, 255, 255);
+  font-weight: 900;
+}
+.mostbox {
+  height: 718px;
+  width: 360px;
+  background-color: red;
+  box-shadow: rgba(0, 0, 0, 0.5) 0px 1px 4px 0px;
+  background-color: rgb(41, 41, 41);
+  border-radius: 10px;
+  float: left;
+  padding: 4px;
+}
+h3 {
+  font-size: 22px;
+  font-weight: 900;
+  color: rgb(255, 255, 255);
+}
+h5 {
+  font-weight: 400;
+  font-size: 12px;
+  color: rgb(155, 155, 155);
+}
+.aboutinbox {
+  font-size: 16px;
+  line-height: 20px;
+  color: rgb(231, 231, 231);
+}
+
